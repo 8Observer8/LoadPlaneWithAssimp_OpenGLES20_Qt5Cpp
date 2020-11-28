@@ -1,0 +1,43 @@
+# Blender v2.79 (sub 0) OBJ File: 'fl8-1_models.blend'
+# www.blender.org
+mtllib Cube.mtl
+o Cube
+v -1.000000 -1.000000 -1.000000
+v -1.000000 -1.000000 1.000000
+v -1.000000 1.000000 -1.000000
+v -1.000000 1.000000 1.000000
+v 1.000000 -1.000000 -1.000000
+v 1.000000 -1.000000 1.000000
+v 1.000000 1.000000 -1.000000
+v 1.000000 1.000000 1.000000
+vn 0.0000 -0.0000 1.0000
+vn -1.0000 0.0000 0.0000
+vn 1.0000 -0.0000 0.0000
+vn 0.0000 0.0000 -1.0000
+vn 0.0000 -1.0000 -0.0000
+vn 0.0000 1.0000 0.0000
+usemtl FrontTopMaterial
+s off
+f 4//1 6//1 8//1
+usemtl FrontDownMaterial
+f 4//1 2//1 6//1
+usemtl LeftTopMaterial
+f 2//2 4//2 3//2
+usemtl LeftDownMaterial
+f 2//2 3//2 1//2
+usemtl RightTopMaterial
+f 8//3 5//3 7//3
+usemtl RightDownMaterial.001
+f 8//3 6//3 5//3
+usemtl BackTopMaterial
+f 7//4 1//4 3//4
+usemtl RightDownMaterial
+f 7//4 5//4 1//4
+usemtl BottomTopMaterial
+f 6//5 2//5 1//5
+usemtl BottomDownMaterial
+f 6//5 1//5 5//5
+usemtl TopTopMaterial
+f 4//6 7//6 3//6
+usemtl TopDownMaterial
+f 4//6 8//6 7//6
